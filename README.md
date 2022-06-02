@@ -38,15 +38,8 @@ eX1,eX2=data2[:,0],data2[:,1]
 
  
 
-# Takes in three inputs as arguments: X1 (Sample 1), X2 (Sample2) and a flag,
-# where 1 = classical KS and 2 = total KS. 
-# If the flag in is set to 1, computes the largest distance between 
-# the two cumulative sample distributions. 
-# If the flag is set to 2, computes the total difference between 
-# the two sample distributions.
+# Takes in three inputs as arguments: X1 (Sample 1), X2 (Sample2) and a flag, where 1 = classical KS and 2 = total KS. If the flag in is set to 1, computes the largest distance between the two cumulative sample distributions. If the flag is set to 2, computes the total difference between the two sample distributions.
 
-# Code was written without knowing exactly what would be needed
-# Only the sorted source data was needed for the calculations
 
 # Code returns the percentile
 
