@@ -20,8 +20,13 @@ should assume the inputs to be 1D numpy arrays of arbitrary – but equal – le
 
 e) Make sure the function has a clear header as to what inputs the function assumes, what outputs it produces
 and when it was written.
+ 
 
-##
+# Takes in three inputs as arguments: X1 (Sample 1), X2 (Sample2) and a flag, where 1 = classical KS and 2 = total KS. If the flag in is set to 1, computes the largest distance between the two cumulative sample distributions. If the flag is set to 2, computes the total difference between the two sample distributions.
+
+
+# Code returns the percentile
+
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -36,12 +41,6 @@ data2=np.genfromtxt('./data/kSinput2.csv',delimiter=",")
 X1,X2=data1[:,0],data1[:,1]
 eX1,eX2=data2[:,0],data2[:,1]
 
- 
-
-# Takes in three inputs as arguments: X1 (Sample 1), X2 (Sample2) and a flag, where 1 = classical KS and 2 = total KS. If the flag in is set to 1, computes the largest distance between the two cumulative sample distributions. If the flag is set to 2, computes the total difference between the two sample distributions.
-
-
-# Code returns the percentile
 
 def totalKs(X1,X2,flag):
     
