@@ -21,6 +21,8 @@ should assume the inputs to be 1D numpy arrays of arbitrary – but equal – le
 e) Make sure the function has a clear header as to what inputs the function assumes, what outputs it produces
 and when it was written.
 
+##
+
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
