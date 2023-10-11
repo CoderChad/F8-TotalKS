@@ -1,4 +1,4 @@
-# F8: TotalKS
+# Function 8: TotalKS
 
 Specific things we would like this function will do:
 
